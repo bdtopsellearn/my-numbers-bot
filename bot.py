@@ -39,7 +39,7 @@ def run_flask():
 CONFIG_BOT_TOKEN = "8413412337:AAHy_S2urriXztED2c3c25IrFruSAGRJUgM"
 CONFIG_ZENEX_API_KEY = "ZNX_M1I5X6MKBRTDZTJ7MY7R6BRG"
 CONFIG_ZENEX_BASE_URL = "https://api.zenexnetwork.com"
-CONFIG_ADMIN_ID = 8991828975
+CONFIG_ADMIN_ID = 7831629041
 CONFIG_OTP_GROUP_ID = -1003964512828
 
 # Premium copy button (PTB 21+)
@@ -198,8 +198,8 @@ def load_settings():
         "min_withdraw": 25.0,
         "otp_bonus": 0.20,
         "referral_bonus": 0.0,
-        "admins": [8991828975],
-        "owners": [8991828975],
+        "admins": [7831629041],
+        "owners": [7831629041],
         "otp_group_chat_id": None,
         "force_join_channel": None,
         "manual_services": [],
@@ -261,8 +261,8 @@ REFERRAL_PRICE = 0
 MIN_WITHDRAW = 25
 MAX_WITHDRAW = 10000
 
-SUPPORT_LINK = "https://t.me/DEM_Support_Chat"
-DEVELOPER_LINK = "https://t.me/Davil_Raju"
+SUPPORT_LINK = "t.me/bd_top_admin"
+DEVELOPER_LINK = "t.me/bd_top_admin"
 
 request_queue = asyncio.Queue()
 MAX_WORKERS = max(1, int(os.getenv("MAX_WORKERS", "20")))
